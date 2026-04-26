@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from "vue";
-import { fetchProducts } from "../services/api";
+import { fetchProducts } from "../stores/authStore";
 import type { Product } from "../types";
 
 import ProductList from "../components/ProductList.vue";
